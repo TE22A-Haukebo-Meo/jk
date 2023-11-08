@@ -10,7 +10,7 @@ public class App {
         tal[2]=tb.nextInt();
         tal[3]=tb.nextInt();
         tal[4]=tb.nextInt();
-        for(int i=0; i<5;i++){
+        for(int i=4; i>=0;i--){
             System.out.println("I fält "+i+" är talet "+tal[i]);
         }
         
