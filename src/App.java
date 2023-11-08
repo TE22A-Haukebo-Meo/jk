@@ -2,18 +2,17 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Droppa 5 tal");
+        System.out.println("Hur många * vill du ha?");
         Scanner tb = new Scanner(System.in);
-        int[] tal = new int[5];
-        tal[0]=tb.nextInt();
-        tal[1]=tb.nextInt();
-        tal[2]=tb.nextInt();
-        tal[3]=tb.nextInt();
-        tal[4]=tb.nextInt();
-        for(int i=4; i>=0;i--){
-            System.out.println("I fält "+i+" är talet "+tal[i]);
+        int tal = tb.nextInt();
+        System.out.println("Cuantos kolumner vill du ah?");
+        int column = tb.nextInt();
+        for (int j=0; j<column; j++){
+            System.out.println();
+            for (int i=0; i<tal; i++){
+                System.out.print("*");
+                }
         }
-        
-        
-    }
+        }
 }
+
