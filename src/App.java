@@ -1,9 +1,10 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 6; i++){
-            System.out.println(i);
+        int tal = 2;
+        do{
+            System.out.println(tal);
+            tal++;
         }
-        }
-
+        while (tal<=5);
     }
-
+}
